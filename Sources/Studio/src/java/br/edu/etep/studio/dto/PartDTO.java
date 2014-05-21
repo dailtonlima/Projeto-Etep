@@ -10,4 +10,9 @@ package br.edu.etep.studio.dto;
  */
 public class PartDTO {
     
+    public String code;
+    public String description;
+    public int amount;
+    public Boolean enable;
+    
 }

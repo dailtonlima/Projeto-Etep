@@ -1,0 +1,13 @@
+-Computador
+-Redes de computadores
+-Protocolos
+-Cliente/Server
+-Linguagem de Programação
+-Orientação a Objeto
+-Java
+-Server
+-Banco de Dados
+-IReport
+-NetBeans
+-Controle de Versão
+-Aplicação de Estudio

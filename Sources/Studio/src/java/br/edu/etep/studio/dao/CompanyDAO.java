@@ -42,6 +42,16 @@ public class CompanyDAO {
 		}
 		return company;
 	}
+        /**
+         * 
+         * @param company
+         * @return 
+         */
+        public CompanyDTO get(CompanyDTO company){
+            CompanyDTO companyDTO = this.get(company.getCompanyName());
+            return companyDTO == null ? company : companyDTO;            
+        }
+        
 	/**
 	 * 
 	 * @param name
@@ -50,7 +60,7 @@ public class CompanyDAO {
 	public CompanyDTO get(String name){
 		CompanyDTO company = null;
 		try {
-			String sql = "SELECT code,companyName,registryDate FROM Company Where companyName = ?";
+			String sql = "SELECT code,companyName FROM company Where companyName = ?";
 			//Prepara o Comando de SQL
 			PreparedStatement ps =	DBConnManager.getConnectionFromPool().prepareStatement(sql);
 			//Seta o parametro
@@ -72,7 +82,7 @@ public class CompanyDAO {
 	public List<CompanyDTO> listAll(){
 		List<CompanyDTO> list = new ArrayList<CompanyDTO>();
 		try {
-			String sql = "SELECT code,companyName,registryDate FROM Company";
+			String sql = "SELECT code,companyName FROM Company";
 			PreparedStatement ps =	DBConnManager.getConnectionFromPool().prepareStatement(sql);
 			list = convertForList(ps.executeQuery());
 		} catch (Exception e) {
@@ -119,7 +129,7 @@ public class CompanyDAO {
 			if(company.getCode() != null){
 				
 				// SQL de atualização da empresa
-				String sql = 	"	Update Company set " +
+				String sql = 	"	Update company set " +
 						"	companyName  = ?" +
 						"	Where code = ?";
 				PreparedStatement ps =	DBConnManager.getConnectionFromPool().prepareStatement(sql);
@@ -144,7 +154,7 @@ public class CompanyDAO {
 	public boolean delete(CompanyDTO company){
 		Boolean result = true;
 		try {
-			String sql = 	" Delete From Company " +
+			String sql = 	" Delete From company " +
 					" Where code = ?";
 			PreparedStatement ps =	DBConnManager.getConnectionFromPool().prepareStatement(sql);
 			//Parametros
@@ -185,7 +195,6 @@ public class CompanyDAO {
 		try {
 			company.setCode(rs.getString("code"));
 			company.setCompanyName(rs.getString("companyName"));
-			company.setRegistryDate(rs.getDate("registryDate"));
                         
 		} catch (SQLException e) {
 			e.printStackTrace();

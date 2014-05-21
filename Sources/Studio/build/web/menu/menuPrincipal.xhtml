@@ -3,12 +3,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html">
     <h:head>
-        <title>Facelet Title</title>
+        <title>Menu Principal</title>
+        <style type="text/css" >
+            @import url("./css/style.css");
+        </style>
     </h:head>
     <h:body>
         <h:form>
-             Menu Principal<br/><br/><hr/>
-             <h:commandLink action="#{menuPrincipal.listCompany()}" value="Company"/>
+            <div id="menu">
+                 <div class="content">
+                     <ul class="nav">
+                         <li>
+                             <h:commandLink action="#{menuPrincipal.listCompany()}" value="Company"/>
+                         </li>
+                         <li>
+                             <h:commandLink  value="Studio"/>
+                         </li>
+                         <li>
+                             <h:commandLink  value="Scenário"/>
+                         </li>
+                         <li>
+                             <h:commandLink  value="Peças"/>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
         </h:form>
     </h:body>
 </html>

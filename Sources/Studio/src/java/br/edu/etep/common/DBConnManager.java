@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DBConnManager {
 	
 	protected static String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-	protected static String url = "jdbc:sqlserver://DAILTON-PC:1433;databaseName=Core";
-	protected static String userName= "coresysuser";
-	protected static String password= "pzh1423";
+	protected static String url = "jdbc:sqlserver://PC-DAILTONLIMA:1433;databaseName=Studio";
+	protected static String userName= "studiosysuser";
+	protected static String password= "xE19WIAH";
 
 	private static Connection connectionPool = null;
 

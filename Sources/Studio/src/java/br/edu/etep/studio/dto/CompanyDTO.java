@@ -15,8 +15,13 @@ public class CompanyDTO {
     private String code;
     
     private String companyName;
-    
-    private Date registryDate;
+
+    public CompanyDTO() {
+    }
+
+    public CompanyDTO(String code) {
+        this.code = code;
+    }
 
     public String getCode() {
         return code;
@@ -32,14 +37,6 @@ public class CompanyDTO {
 
     public void setCompanyName(String companyName) {
         this.companyName = companyName;
-    }
-
-    public Date getRegistryDate() {
-        return registryDate;
-    }
-
-    public void setRegistryDate(Date registryDate) {
-        this.registryDate = registryDate;
     }
     
     @Override

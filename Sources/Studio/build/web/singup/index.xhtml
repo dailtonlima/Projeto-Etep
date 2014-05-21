@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <ui:composition template="../themes/basic.xhtml">
+        <ui:define name="content">
+            <h:form>
+                <p:inputText id="companyName" required="true" label="Company Name" />  
+                <p:watermark for="companyName" value="Company Name" />  
+                <p:inputText id="fullName" required="true" label="Nome Completo" />  
+                <p:watermark for="fullName" value="Nome Completo" />  
+                <p:inputText id="email" required="true" label="Email" />  
+                <p:watermark for="email" value="Email" /> 
+                <p:inputText id="password" required="true" label="Senha" />  
+                <p:watermark for="password" value="Senha" />  
+                
+                <p:commandButton value="Sign Up"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>  
+</html>
+
