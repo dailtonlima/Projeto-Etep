@@ -7,7 +7,6 @@
 -Java
 -Server
 -Banco de Dados
--IReport
+-IReport // http://community.jaspersoft.com/wiki/ireport-designer-getting-started
 -NetBeans
--Controle de Versão
 -Aplicação de Estudio
