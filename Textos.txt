@@ -1,0 +1,73 @@
+---Introdução
+Vivemos atualmente na era digital, que contém uma inimaginável quantidade de informação,
+que cresce rapidamente, modificando o modo como as pessoas se relacionam, além de atuarem
+diretamente no mercado, elas produzem conteúdos instantaneamente e em qualquer lugar em tempo 
+real e móvel. Hoje, tudo é compartilhado, curtido, assistido, conectado e comprado em diversas
+plataformas tecnológicas como smartphones e tablets transportam os consumidores para suas necessidades 
+de forma interativa através de um clique ou um toque na tela, e deixam-se influenciar por compartilhamento
+de comentários de usuários em redes sociais.
+Na cenografia onde o foco pricipal é produção de espaços efêmeros pela subversão no uso de materiais industrias
+e pela apropriação de tecnologias ou objetos reciclados. Em meio de diversas imagens e o uso criativo de materias
+inusitados criasse um painel com tubulações elétricas, em outra, uma passarela de papel ou um jardim de pneus descartados.
+
+--Objetivo
+A finalidade deste trabalho é analisar e especificar um sistema para montagens cenográficas que facilita e agiliza as locações,
+devoluções, cadastros e controle de entrada e saida das peças.
+
+--Objetivos especificos
+-Analisar o funcionamento da montagem cenográfica;
+- Conhecer as dificuldades existentes na cenografia;
+- Propor soluções aos dificuldades;
+- Especificar o sistema seguindo as funcionalidades abaixo:
+-- Realizar cadastros de Peças;
+-- Efetuar movimentação, como locações;
+-- Realizar pesquisas;
+- Analisar funcionamento do sistema.
+
+--Justificativa
+O desenvolvimento de software para a informatização das empresas
+cresce a cada dia. Com isso, espera-se obter melhor desempenho e 
+lucratividade com a utilização do sistema. Para incrementar o 
+faturamento de empresas cenográficas, principalmente otimizar o 
+processo de visualizar a continuidade de seu negócio, surge a 
+necessidade de desenvolver um sistema que pudesse substituir o 
+trabalho manual realizado na distribuição de peças em uma empresa cenográfica.
+
+-- Data Modeling
+Modelagem de dados é um processo utilizado para definir e analisar
+os requisitos de dados necessários para suportar os processos de negócio,
+no âmbito dos sistemas de informação correspondente nas organizações.
+Portanto, o processo de modelagem de dados envolve modeladores de dados profissionais
+que trabalham em estreita colaboração com os acionistas da empresa, bem como potencias
+utilizadores do sistema de informação.
+Existem três tipos diferentes de modelos de dados produzidos enquanto progredindo
+de requisitos para o banco de dados real paara ser usado para o sistema de informação.
+Os requisitos de dados são inicialmente registrados como um modelo conceitual de dados, 
+que é essencialmente um conjunto de especificações de tecnologia independentes sobre os dados
+e é usado para discutir os requisitos iniciais com as partes interessadas no negócio.
+O modelo de dados lógicos, o que documnenta estruturas de dados que pode ser implementado 
+em bases de dados. Implementação de um modelo conceitual de dados pode exigir vários modelos
+de dados lógicos. O último passo na modelagem de dados esta transformando o modelo lógico de 
+dados para um modelo de dados físico que organiza os dados em tabelas, e contas de acesso, desenpenho 
+e armazenamento detalhado. Modelagem de dados define não apenas os elementos de dados, 
+mas também as suas estruturas e as relações entre eles.
+
+
+-- Protótipo
+A interface gráfica de um sistema é algo que deve ser questionado pelo o desenvolvedor. 
+É através de cada tela que o usuário irá interagir com as funcionalidades do sistema.
+Sendo que devem ser visualmente claras, objetivas e usuais facilitando o entendimento 
+do usuário para com o sistemas.
+
+--Conclusão
+Ao desenvolver qualquer tipo de sistema é necessário se aprofundar no ambiente em que 
+será utilizado, para identificar e levantar as necessidades, conhecer os processos e 
+os problemas que interfere na continuidade da mesma e estabelecer funcionalidades que 
+o sistema deverá ter.
+Com a implantação do sistema, a lucratividades da empresa aumentará de forma considerável,
+com a facilidade de alocação de peças e emissão de relatório de serviços. O atendimentos aos
+clientes passa a ser rápido, diminuindo o tempo na localização de cada peça a ser utilizada 
+no cenário.
+O sistema facilita o controle das locações, devoluções e contabilizando o acervo de peças.
+Pesquisa tais como: para saber a disponibilidade de um determinada peça, entre outras, 
+passa a ser realizadas de forma segura e eficiente.
